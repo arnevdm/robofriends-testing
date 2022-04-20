@@ -1,6 +1,6 @@
 {
   "name": "robofriends-redux",
-  "homepage": "https://arnevdm.github.io/robofriends",
+  "homepage": "https://arnevdm.github.io/robofriends-pwa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
