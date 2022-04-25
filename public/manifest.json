@@ -21,15 +21,9 @@
       "src": "./apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
-    },
-    {
-      "src": "path/to/maskable_icon.png",
-      "sizes": "196x196",
-      "type": "image/png",
-      "purpose": "any maskable"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "/?source=pwa",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
