@@ -2,4 +2,10 @@ import { shallow, mount, render } from "enzyme";
 import React from "react";
 import Card from "./Card";
 
-console.log(shallow(<Card />));
+it("expect to render Card Component", () => {
+  expect(shallow(<Card />).length).toEqual(1);
+});
+// ? Snapshot Testing
+it("expect to render Card Component", () => {
+  expect(shallow(<Card />)).toMatchSnapshot();
+});
